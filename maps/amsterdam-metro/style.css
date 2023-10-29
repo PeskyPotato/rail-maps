@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #323232;
+}
+#cy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.title {
+    z-index: 5;
+    top: 70vh;
+    left: 2rem;
+    position: relative;
+}
+.title p {
+    width: 65vw;
+}
+.legend {
+    z-index: 5;
+    top: 68vh;
+    left: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+.box {
+    float: left;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.5rem;
+}
+h3 {
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+#fifty {
+    background-color: #298e37;
+}
+#fifty-one {
+    background-color: #f7981d;
+}
+#fifty-two {
+    background-color: #00a1e3;
+}
+#fifty-three {
+    background-color: #cd0d40;
+}
+#fifty-four {
+    background-color: #e5c103;
+}

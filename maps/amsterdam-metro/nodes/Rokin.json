@@ -1,0 +1,70 @@
+[
+    {
+        "type": "station",
+        "lat": 52.3718068,
+        "lon": 4.8930423
+    },
+    {
+        "place_id": 138226115,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 29472670,
+        "lat": "52.368404",
+        "lon": "4.8927669",
+        "class": "waterway",
+        "type": "river",
+        "place_rank": 19,
+        "importance": 0.3778821996429798,
+        "addresstype": "river",
+        "name": "Rokin",
+        "display_name": "Rokin, Centrum, Amsterdam, Noord-Holland, Nederland, 1012 GC, Nederland",
+        "boundingbox": [
+            "52.3673606",
+            "52.3690584",
+            "4.8923639",
+            "4.8939945"
+        ]
+    },
+    {
+        "place_id": 138454122,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 74084074,
+        "lat": "52.368402599999996",
+        "lon": "4.892836630051374",
+        "class": "natural",
+        "type": "water",
+        "place_rank": 22,
+        "importance": 0.3778821996429798,
+        "addresstype": "water",
+        "name": "Rokin",
+        "display_name": "Rokin, Burgwallen-Oude Zijde, Centrum, Amsterdam, Noord-Holland, Nederland",
+        "boundingbox": [
+            "52.3675603",
+            "52.3691680",
+            "4.8921949",
+            "4.8938877"
+        ]
+    },
+    {
+        "place_id": 236087918,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7034474260,
+        "lat": "62.110121",
+        "lon": "-6.7360909",
+        "class": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.25000999999999995,
+        "addresstype": "hamlet",
+        "name": "Rókin",
+        "display_name": "Rókin, Saltnes, Eysturoyar sýsla, 656, Føroyar",
+        "boundingbox": [
+            "62.0901210",
+            "62.1301210",
+            "-6.7560909",
+            "-6.7160909"
+        ]
+    }
+]
