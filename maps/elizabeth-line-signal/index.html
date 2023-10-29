@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+  <script type="module" src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="cy"></div>
+  <div class="title">
+    <h1>Signalling on the Elizabeth line</h1>
+    <p>Sharing infrastructure with the Great Eastern and Great Western Main Lines meant also adopting their TPWS/AWS signaling. Preparing for the future, the rolling stack had to be compatible with ETCS, which is currently in use on the Heathrow branch. Within the central core and Abbey Wood branch CBTC was chosen, allowing the Elizabeth Line to reach 24 trains per hour. These stations are also equipped with platform edge doors.</p>
+  </div>
+  <div class="legend">
+  	<div class="legend-item">
+  		<div class="box" id="TPWS"></div>
+      <h3>TPWS</h3>
+  	</div>
+    <div class="legend-item">
+      <div class="box" id="ETCS"></div>
+      <h3>ETCS</h3>
+    </div>
+    <div class="legend-item">
+      <div class="box" id="CBTC"></div>
+      <h3>CBTC</h3>
+    </div>
+  </div>
+</body>
+
+</html>

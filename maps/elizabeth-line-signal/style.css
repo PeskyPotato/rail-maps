@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+#cy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.title {
+    z-index: 5;
+    top: 20vh;
+    left: 2rem;
+    position: relative;
+}
+.title p {
+    width: 65vw;
+}
+.legend {
+    z-index: 5;
+    top: 60vh;
+    left: 2rem;
+    position: relative;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+.box {
+    float: left;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.5rem;
+}
+h3 {
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+#TPWS {
+    background-color: #008000;
+}
+#ETCS {
+    background-color: #ff0000;
+}
+#CBTC {
+    background-color: #ffa500;
+}
