@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+#cy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.title {
+    z-index: 5;
+    left: 2rem;
+    position: absolute;
+    bottom: 2rem;
+    text-align: end;
+    width: 65vw;
+    right: 2rem;
+    margin: 0 0 0 auto;
+}
