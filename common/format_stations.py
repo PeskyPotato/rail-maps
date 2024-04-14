@@ -14,7 +14,7 @@ def format_stations(stations_file, formatted_file, scale=1000):
         station_name = station_name.strip()
         node_path = os.path.join(os.path.dirname(formatted_file), "nodes")
         os.makedirs(node_path, exist_ok=True)
-        node = get_node(station_name, node_path)
+        node = get_node(station_name, node_path, node_type='station')
         if not node:
             continue
 
@@ -26,7 +26,7 @@ def format_stations(stations_file, formatted_file, scale=1000):
         station["data"]["s_name"] = station_name
         station["position"]["x"] = float(node["lon"])*scale
         station["position"]["y"] = float(node["lat"])*-scale
-        
+
         current_id += 1
         formatted_stations.append(station)
 
