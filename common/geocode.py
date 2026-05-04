@@ -21,7 +21,10 @@ def get_station_api(name, node_path, exclude_place_ids=[], node_type='station'):
     }
 
     print(f"Fetched: {name}")
-    r = requests.get(BASE, params=params)
+    headers = {
+        "User-Agent": "rail-maps by PeskyPotato"
+    }
+    r = requests.get(BASE, params=params, headers=headers)
     data = r.json()
 
     with open(os.path.join(node_path, f"{params['q']}.json"), "w") as f:
